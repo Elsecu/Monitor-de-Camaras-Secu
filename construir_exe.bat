@@ -7,7 +7,7 @@ echo [2/3] Instalando dependencias...
 python -m pip install --upgrade pip
 pip install -r requirements-dev.txt || goto :error
 echo [3/3] Generando .exe...
-pyinstaller --onefile --noconsole --uac-admin --name MonitordeCamaras main.py || goto :error
+pyinstaller --onefile --noconsole --uac-admin --name "Monitor de Camaras" main.py || goto :error
 echo.
 echo LISTO: dist\MonitordeCamaras.exe
 pause
