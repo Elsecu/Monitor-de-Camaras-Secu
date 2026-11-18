@@ -20,7 +20,7 @@ TRACERT_MAX_SALTOS = 30      # saltos maximos del tracert
 TRACERT_TIMEOUT_MS = 4000    # espera por salto (ms)
 
 # Tracert masivo (varias camaras a la vez)
-TRACERT_MASIVO_CONCURRENTES = 3         # tracert simultaneos
+TRACERT_MASIVO_CONCURRENTES = 15         # tracert simultaneos
 TRACERT_MASIVO_TIMEOUT_MS = 4000         # espera por salto (ms); mas bajo que el individual
 TRACERT_MASIVO_SALTOS_SIN_RESPUESTA = 8  # corta tras N saltos seguidos sin respuesta (0 = no cortar)
 

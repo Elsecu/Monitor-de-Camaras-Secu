@@ -59,7 +59,6 @@ class VentanaTracertMasivo(tk.Toplevel):
         self.btn_detener = ttk.Button(barra, text="Detener", command=self._detener)
         self.btn_detener.pack(side="left")
         ttk.Button(barra, text="Copiar", command=self._copiar).pack(side="left", padx=6)
-        ttk.Label(barra, text="Doble clic en una cámara: abre su tracert individual").pack(side="left", padx=10)
 
         self.bind("<Destroy>", self._al_destruir)
         self._actualizar_estado()
